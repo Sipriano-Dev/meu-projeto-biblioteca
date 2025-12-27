@@ -1,0 +1,90 @@
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache/
+
+# ======================
+# Build
+# ======================
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+dependency-reduced-pom.xml
+release.properties
+buildNumber.properties
+
+# Gradle
+.gradle/
+build/
+
+# ======================
+# Java
+# ======================
+
+*.class
+*.log
+hs_err_pid*
+
+# ======================
+# OS files
+# ======================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ======================
+# Environment / Secrets
+# ======================
+
+.env
+.env.*
+*.key
+*.pem
+*.ppk
+
+# ======================
+# Temporary / Backup
+# ======================
+
+*.tmp
+*.bak
+*.swp
+*~
+*.orig
+
+# ======================
+# Archives
+# ======================
+
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ======================
+# Maven wrapper (keep)
+# ======================
+
+!mvnw
+!mvnw.cmd
+!.mvn/wrapper/maven-wrapper.jar
